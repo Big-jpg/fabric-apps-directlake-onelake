@@ -1,0 +1,51 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+/.playwright/
+/.playwright-cli/
+
+# dist
+/dist/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# environment files
+.env*
+!.env.example
+/app.integration.json
+
+# typescript
+*.tsbuildinfo
+.env*.local
+
+# generated integration bindings
+/fabric.yaml
+/src/fabric.generated.ts
+/src/config/app-metadata.ts
+/rayfin/rayfin.yml
+
+# Rayfin local deployment state
+/rayfin/.env
+/rayfin/.deployments.json

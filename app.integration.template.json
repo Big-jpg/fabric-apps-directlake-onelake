@@ -1,0 +1,22 @@
+{
+  "app": {
+    "id": "semantic-model-starter",
+    "name": "Semantic Model Starter",
+    "dashboardTitle": "Semantic Model Starter"
+  },
+  "fabric": {
+    "workspaceId": "<fabric-workspace-id>",
+    "workspaceName": "<fabric-workspace-name>",
+    "portalUrl": "https://app.fabric.microsoft.com",
+    "semanticModel": {
+      "alias": "semanticModel",
+      "name": "<semantic-model-name>",
+      "itemId": "<semantic-model-item-id>"
+    }
+  },
+  "auth": {
+    "allowedRedirectUris": [
+      "http://localhost:5173"
+    ]
+  }
+}

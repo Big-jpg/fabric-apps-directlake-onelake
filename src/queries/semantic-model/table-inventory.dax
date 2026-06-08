@@ -1,0 +1,9 @@
+EVALUATE
+SELECTCOLUMNS(
+    INFO.VIEW.TABLES(),
+    "TableName", [Name],
+    "Description", [Description],
+    "IsHidden", [IsHidden],
+    "DataCategory", [DataCategory]
+)
+ORDER BY [TableName] ASC
